@@ -1,0 +1,25 @@
+/**
+ * Copyright (c) JOB TODAY S.A. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ *
+ */
+import React from "react";
+import { ModalProps } from "react-native";
+import { ImageSource } from "./types";
+export type Props = {
+    imageSrc: ImageSource;
+    visible: boolean;
+    onRequestClose: () => void;
+    onLongPress?: (image: ImageSource) => void;
+    presentationStyle?: ModalProps["presentationStyle"];
+    animationType?: ModalProps["animationType"];
+    backgroundColor?: string;
+    swipeToCloseEnabled?: boolean;
+    doubleTapToZoomEnabled?: boolean;
+    delayLongPress?: number;
+    swipeCloseSensitivity?: number;
+};
+declare const EnhancedImageViewing: (props: Props) => React.JSX.Element;
+export default EnhancedImageViewing;

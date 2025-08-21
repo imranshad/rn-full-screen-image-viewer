@@ -1,6 +1,6 @@
 {
     "name": "@mimranshad/full-screen-image-viewer",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "description": "Lightweight full-screen image viewer with pinch/double-tap zoom and swipe-to-close for React Native.",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
@@ -33,5 +33,10 @@
         "zoom",
         "full-screen",
         "modal"
-    ]
+    ],
+    "devDependencies": {
+        "@types/react": "^19.1.10",
+        "rimraf": "^6.0.1",
+        "typescript": "^5.9.2"
+    }
 }
