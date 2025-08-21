@@ -21,12 +21,12 @@
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/your-org/your-repo.git"
+        "url": "git+https://github.com/imranshad/rn-full-screen-image-viewer.git"
     },
     "bugs": {
-        "url": "https://github.com/your-org/your-repo/issues"
+        "url": "https://github.com/imranshad/rn-full-screen-image-viewer/issues"
     },
-    "homepage": "https://github.com/your-org/your-repo#readme",
+    "homepage": "https://github.com/imranshad/rn-full-screen-image-viewer#readme",
     "keywords": [
         "react-native",
         "image-viewer",
