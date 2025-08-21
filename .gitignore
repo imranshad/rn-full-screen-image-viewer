@@ -81,3 +81,8 @@ package-lock.json
 
 # code2prompt
 code2prompt/
+temp_auto_push.bat
+temp_interactive_push.bat
+.gitignore
+config.bat
+branch_structure.json
